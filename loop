@@ -1,0 +1,57 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+   // printf("Hello world");
+    int i,j;
+    int arr[2][3]={
+                {1,2,3},
+                {6,5,4}
+        
+    };
+    //printf("%d",arr[1][2]);
+    
+    
+    /*
+    for(i=0;i<2;++i){
+        for(j=0;j<3;j++){
+            printf("%d",arr[i][j]) ;
+            
+        }
+
+    }
+      */      
+      
+      int arr1[2][3];
+      i=10;
+      
+      arr1[0][0]=i;
+   // printf("%d",arr1[0][0]);
+    
+    for(i=0;i<2;i++){
+        
+        for(j=0;j<3;j++){
+           static int m=0;
+            ++m;
+            arr1[i][j]=m;
+            
+           printf("%d",arr1[i][j]);
+        }
+    }
+    
+    void myFunction(){
+        int j=10;
+        if(j==10){
+            
+            printf("your value of j is %d",j);
+            j--;
+           
+        }
+    }
+
+    if(){
+            static int y=0;
+    }
+    
+    return 0;
+}
